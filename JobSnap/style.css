@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9fafc;
+}
+
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 1rem;
+}
+
+main {
+    margin: 2rem;
+}
+
+button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #357ab8;
+}
+
+#job-list, #job-details {
+    margin: 2rem;
+    text-align: left;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
